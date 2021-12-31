@@ -1,0 +1,19 @@
+.menu{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+list-style: none;
+border: 1px solid red ;
+}
+a { 
+	text-decoration: none;
+
+}
+li{
+
+list-style: none;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}

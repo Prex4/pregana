@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* CSS Document */
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+}
+ul{
+	list-style-type: none;
+}
+li{
+	display: inline-block;
+	width: 25%;
+	text-align: center
+}
+ul::after{
+	content: "";
+	display: table;
+	clear: both;
+	float: left;
+}
+nav{
+	width: 99%;
+	margin: 0px auto;
+	background-color: black;
+	top:0px;
+	position: sticky;
+}
+a{
+	display: block;
+	text-decoration: none;
+	color:white;
+	padding: 10px 0px;
+	border-bottom: 2px solid transparent;
+	font-size: 150%;
+	
+}
+nav a:hover{
+	color:#174AA3;
+}
+.i{
+	border-radius: 50%;
+	float: left;
+
+
+}
+.ii
+{
+		}
+.ap{
+	margin-top:  50%;
+	text-align: center;
+}
+#pm{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 50%;
+	width: 50%;
+	margin-left: 8%;
+	
+}
+footer{
+	background-color: #6A6262;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	
+}
+.copyright{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color:#65808F;
+	color: #ffffff;
+	text-transform: uppercase;
+	letter-spacing: lighter;
+	border-top-width: 2px;
+}
+/*pour ordinateur*/
+@media (min-width:768px)and (max-width:1096px){
+	.text_column{
+		width: 100%;
+	}
+	.thumbnail{
+		width: 48%;
+	}
+	.text_column{
+		width: 90%;
+		margin: 0%;
+		padding: 20%;
+	}
+	.intro .column p{
+		width: 80%;
+	}
+}
+/*petit tablette*/
+@media (min-width:321px)and (max-width:767px){
+	.logo{
+		width: 100%;
+		text-align: center;
+		margin-top: 13%;
+		margin-right: 0%;
+		margin-left: 0%;
+		margin-bottom: 0%;
+	}
+	header{
+		display: flex;
+		flex-direction: column;
+	}
+	.text_column{
+		width: 100%;
+		text-align:justify;
+		padding: 0;
+	}
+	.intro .column p {
+		width: 80%;
+		margin-left: 0px;
+		
+	}
+	.text_column{
+		padding-left: 20px;
+	}
+	.thumbnail{
+		width: 100%;
+	}
+	
+}
+/*mobile*/
+@media (max-width:320px){
+	.logo{
+		width: 100%;
+		text-align: center;
+		margin-top: 13%;
+		margin-right: 0%;
+		margin-left: 0%;
+		margin-bottom: 0%;
+	}
+	header{
+		display: flex;
+		flex-direction: column;
+	}
+	.text_column{
+		width: 100%;
+		text-align:justify;
+		padding: 0;
+	}
+	.intro .column p {
+		width: 80%;
+		margin-left: 0px;
+	}
+	.text_column{
+		padding-left: 0px;
+	}
+	.thumbnail{
+		width: 100%;
+	}
+	
+}
+#hold_image{
+	display: inline-block;
+	white-space: nowrap;
+}
+#icon_left{
+	right: 20;
+	cursor: pointer;
+	margin-top: -200px;
+	position: fixed;
+}
+#icon_right{
+	right: 20;
+	cursor: pointer;
+	margin-top: -200px;
+	position: fixed;
+}
+
+
